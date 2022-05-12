@@ -70,7 +70,7 @@ public class BillingAPI extends HttpServlet {
 		String output = BillObj.updateBillDetails(paras.get("hidBillIDSave").toString(), 
 				paras.get("Account_No").toString(), 
 				paras.get("From_Date").toString(), 
-				paras.get("To_date").toString(), 
+				paras.get("To_Date").toString(), 
 				paras.get("Current_Reading").toString(),
 				paras.get("Status").toString()); 
 		

@@ -390,7 +390,7 @@ public class BillingModel {
 				 
 				// buttons
 				// buttons
-				 output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary' data-id='"+ ID +"'></td>"
+				 output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary' data-billid='"+ ID +"'></td>"
 				+ "<td><input name='btnRemove' type='button' value='Remove' class='btnRemove btn btn-danger' data-accountno='"+ Account_No + "'></td></tr>"; 
 			 }
 			 con.close();

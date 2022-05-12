@@ -77,8 +77,8 @@ $(document).on("click", ".btnUpdate", function(event)
 {
 	 $("#hidBillIDSave").val($(this).data("billid"));
 	 $("#Account_No").val($(this).closest("tr").find('td:eq(0)').text()); 
-	 $("#From_Date").val($(this).closest("tr").find('td:eq(3)').text()); 
-	 $("#To_Date").val($(this).closest("tr").find('td:eq(5)').text()); 
+	 $("#From_Date").val($(this).closest("tr").find('td:eq(3)').date()); 
+	 $("#To_Date").val($(this).closest("tr").find('td:eq(5)').date()); 
 	 $("#Current_Reading").val($(this).closest("tr").find('td:eq(6)').text());
 	 $("#Status").val($(this).closest("tr").find('td:eq(11)').text());
 });
