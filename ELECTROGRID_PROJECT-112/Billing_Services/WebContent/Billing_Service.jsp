@@ -19,9 +19,9 @@
 				<form id="formBill" name="formBill">
 					Account No: <input id="Account_No" name="Account_No" type="text" class="form-control form-control-sm"> 
 					<br> From Date:
-					<input id="From_Date" name="From_Date" type="date" class="form-control form-control-sm">
+					<input id="From_Date" name="From_Date" type="text" class="form-control form-control-sm">
 					 <br> To Date
-					<input id="To_Date" name="To_Date" type="date" class="form-control form-control-sm"> 
+					<input id="To_Date" name="To_Date" type="text" class="form-control form-control-sm"> 
 					<br> Current Reading
 					<input id="Current_Reading" name="Current_Reading" type="text" class="form-control form-control-sm"> 
 					<br> Status
